@@ -1,0 +1,42 @@
+{
+  "name": "@nvappsltd/ump-expo",
+  "version": "0.1.0",
+  "description": "Google UMP for Expo",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "open -a \"Xcode\" example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "@nvappsltd/ump-expo",
+    "UmpExpo"
+  ],
+  "repository": "https://github.com/nvappsltd/ump-expo",
+  "bugs": {
+    "url": "https://github.com/nvappsltd/ump-expo/issues"
+  },
+  "author": "Burak Simsek <burak@nvapps.co> (https://github.com/buraks)",
+  "license": "MIT",
+  "homepage": "https://github.com/nvappsltd/ump-expo#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "expo-module-scripts": "^3.0.11",
+    "expo-modules-core": "^1.5.11"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@nvappsltd/ump-expo": ["../src/index"],
+      "@nvappsltd/ump-expo/*": ["../src/*"]
+    }
+  }
+}
