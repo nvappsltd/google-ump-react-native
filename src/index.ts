@@ -1,10 +1,8 @@
-import { NativeModulesProxy, EventEmitter, Subscription } from 'expo-modules-core';
+import { EventEmitter, NativeModulesProxy, Subscription } from 'expo-modules-core';
 
-// Import the native module. On web, it will be resolved to UmpExpo.web.ts
-// and on native platforms to UmpExpo.ts
+import { ChangeEventPayload, UmpExpoViewProps } from './UmpExpo.types';
 import UmpExpoModule from './UmpExpoModule';
 import UmpExpoView from './UmpExpoView';
-import { ChangeEventPayload, UmpExpoViewProps } from './UmpExpo.types';
 
 // Get the native constant value.
 export const PI = UmpExpoModule.PI;
@@ -23,4 +21,4 @@ export function addChangeListener(listener: (event: ChangeEventPayload) => void)
   return emitter.addListener<ChangeEventPayload>('onChange', listener);
 }
 
-export { UmpExpoView, UmpExpoViewProps, ChangeEventPayload };
+export { ChangeEventPayload, UmpExpoView, UmpExpoViewProps };
