@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'maven-publish'
 
-group = 'expo.modules.googleump'
+group = 'co.nvapps.googleump'
 version = '0.1.0'
 
 buildscript {
@@ -86,4 +86,6 @@ repositories {
 dependencies {
   implementation project(':expo-modules-core')
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${getKotlinVersion()}"
+
+  implementation("com.google.android.ump:user-messaging-platform:2.1.0")
 }

@@ -6,10 +6,10 @@ module.exports = async (env, argv) => {
     {
       ...env,
       babel: {
-        dangerouslyAddModulePathsToTranspile: ['@nvappsltd/ump-expo'],
+        dangerouslyAddModulePathsToTranspile: ['google-ump-react-native'],
       },
     },
-    argv
+    argv,
   );
   config.resolve.modules = [
     path.resolve(__dirname, './node_modules'),

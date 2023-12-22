@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ump-expo-example",
-    "slug": "ump-expo-example",
+    "name": "google-ump-react-native-example",
+    "slug": "google-ump-react-native-example",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,14 +13,17 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "expo.modules.googleump.example"
+      "bundleIdentifier": "co.nvapps.googleump.example"
     },
     "android": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~3347511713"
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "expo.modules.googleump.example"
+      "package": "co.nvapps.googleump.example"
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "platforms": ["ios", "android"],
   "ios": {
-    "modules": ["UmpExpoModule"]
+    "modules": ["UmpModule"]
   },
   "android": {
-    "modules": ["expo.modules.googleump.UmpExpoModule"]
+    "modules": ["co.nvapps.googleump.UmpModule"]
   }
 }

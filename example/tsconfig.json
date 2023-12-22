@@ -3,8 +3,8 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@nvappsltd/ump-expo": ["../src/index"],
-      "@nvappsltd/ump-expo/*": ["../src/*"]
+      "google-ump-react-native": ["../src/index"],
+      "google-ump-react-native/*": ["../src/*"]
     }
   }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "@nvappsltd/ump-expo",
+  "name": "google-ump-react-native",
   "version": "0.0.1",
-  "description": "Google UMP for Expo",
+  "description": "Google User Messaging Platform (UMP) for React Native",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -18,17 +18,17 @@
   "keywords": [
     "react-native",
     "expo",
-    "@nvappsltd/ump-expo",
-    "UmpExpo"
+    "ump",
+    "google-ump",
+    "nvapps"
   ],
-  "repository": "https://github.com/nvappsltd/ump-expo",
+  "repository": "https://github.com/nvappsltd/google-ump-react-native",
   "bugs": {
-    "url": "https://github.com/nvappsltd/ump-expo/issues"
+    "url": "https://github.com/nvappsltd/google-ump-react-native/issues"
   },
   "author": "Burak Simsek <burak@nvapps.co> (https://github.com/buraks)",
   "license": "MIT",
-  "homepage": "https://github.com/nvappsltd/ump-expo#readme",
-  "dependencies": {},
+  "homepage": "https://github.com/nvappsltd/google-ump-react-native#readme",
   "devDependencies": {
     "@types/react": "^18.0.25",
     "expo-module-scripts": "^3.0.11",
