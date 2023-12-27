@@ -1,24 +1,33 @@
 # google-ump-react-native
 
-[WIP] Google User Messaging Platform (UMP) for React Native
+Google User Messaging Platform (UMP) for React Native.
 
-## Installation in managed Expo projects
+This library is built by using the [Expo Modules API](https://docs.expo.dev/modules/overview/). If you are using Expo, it already has first class support.
 
-For [managed](https://docs.expo.dev/archive/managed-vs-bare/) Expo projects, please follow the installation instructions in the [API documentation for the latest stable release](#api-documentation). If you follow the link and there is no documentation available then this library is not yet usable within managed projects &mdash; it is likely to be included in an upcoming Expo SDK release.
+## Installation
+
+```
+npx expo install google-ump-react-native
+```
+or
+```
+yarn add google-ump-react-native
+```
+or
+```
+npm install google-ump-react-native
+```
 
 ## Installation in bare React Native projects
 
-[TBC] For bare React Native projects, you must ensure that you have [installed and configured the `expo` package](https://docs.expo.dev/bare/installing-expo-modules/) before continuing.
+For bare React Native projects, you must ensure that you have [installed and configured the `expo` package](https://docs.expo.dev/bare/installing-expo-modules/) before continuing.
 
-#### Add the package to your npm dependencies
+#### Add the package to your dependencies
 
 ```
-npm install google-ump-react-native
+npx expo install google-ump-react-native
 ```
 
 #### Configure for iOS
 
 Run `npx pod-install` after installing the npm package.
-
-
-#### Configure for Android

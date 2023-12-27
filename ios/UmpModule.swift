@@ -3,7 +3,7 @@ import UserMessagingPlatform
 
 final class MissingViewControllerException: Exception {
     override var reason: String {
-        "Unable to find the current view controller to present the compose view controller"
+        "Unable to find the current view controller to present the UMP form"
     }
 }
 
