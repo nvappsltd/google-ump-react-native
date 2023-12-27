@@ -1,7 +1,6 @@
 package co.nvapps.googleump
 
 import android.content.Context
-import android.util.Log
 import com.google.android.ump.ConsentDebugSettings
 import com.google.android.ump.ConsentInformation
 import com.google.android.ump.ConsentRequestParameters
@@ -26,12 +25,10 @@ class UmpModule : Module() {
     Name("Ump")
 
     OnCreate {
-      Log.w("BURAK", "geldim 1")
       consentInformation = UserMessagingPlatform.getConsentInformation(context)
     }
 
     Function("getConsentInformation") {
-      Log.w("BURAK", "geldim 2")
       return@Function UmpConsentInformation.fromConsentInformation(consentInformation)
     }
 

@@ -87,5 +87,6 @@ dependencies {
   implementation project(':expo-modules-core')
   implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${getKotlinVersion()}"
 
+  // https://developers.google.com/admob/android/privacy/release-notes
   implementation("com.google.android.ump:user-messaging-platform:2.1.0")
 }
