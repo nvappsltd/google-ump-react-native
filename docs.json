@@ -1,4 +1,8 @@
 {
   "name": "Google UMP React Native",
-  "description": "Google User Messaging Platform (UMP) for React Native."
+  "description": "Google User Messaging Platform (UMP) for React Native.",
+  "sidebar": [
+    ["Installation", "/"],
+    ["Installation in bare React Native", "/bare-projects"]
+  ]
 }
