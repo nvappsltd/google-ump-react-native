@@ -1,6 +1,6 @@
 {
   "name": "google-ump-react-native",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Google User Messaging Platform (UMP) for React Native",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -28,7 +28,7 @@
   },
   "author": "Burak Simsek <burak@nvapps.co> (https://github.com/buraks)",
   "license": "MIT",
-  "homepage": "https://github.com/nvappsltd/google-ump-react-native#readme",
+  "homepage": "https://docs.page/nvappsltd/google-ump-react-native",
   "devDependencies": {
     "@types/react": "^18.0.25",
     "expo-module-scripts": "^3.0.11",
