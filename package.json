@@ -1,6 +1,6 @@
 {
   "name": "google-ump-react-native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google User Messaging Platform (UMP) for React Native",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -20,6 +20,7 @@
     "expo",
     "ump",
     "google-ump",
+    "gdpr",
     "nvapps"
   ],
   "repository": "https://github.com/nvappsltd/google-ump-react-native",
