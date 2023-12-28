@@ -1,3 +1,53 @@
 # Usage
 
-WIP
+This library is following the instructions from Google as is, you can also follow the official docs from Google [iOS](https://developers.google.com/admob/ios/privacy) and [Android](https://developers.google.com/admob/android/privacy).
+
+## Basic Example
+
+```ts
+import { Alert } from 'react-native';
+import { Ump } from 'google-ump-react-native';
+
+Ump.requestInfoUpdate().then(() => {
+  Ump.loadAndShowConsentFormIfRequired()
+    .then(({canRequestAds}) => {
+      if (canRequestAds) {
+          // initializeMobileAdsSdk();
+      }
+    })
+    .catch((e) => Alert.alert('Error', e.message))
+});
+
+// Check if you can initialize the Google Mobile Ads SDK in parallel
+// while checking for new consent information. Consent obtained in
+// the previous session can be used to request ads.
+if (Ump.getConsentInformation().canRequestAds) {
+  // initializeMobileAdsSdk();
+}
+```
+
+## Example with debug settings
+
+```ts
+import { DebugGeography, Ump } from 'google-ump-react-native';
+// You can find your test device id in the logs
+const TEST_DEVICE_ID = 'D7FCF9667285AE99077DE54805760DFD';
+
+Ump.requestInfoUpdate({
+  debugSettings: {
+    debugGeography: DebugGeography.EEA,
+    testDeviceIdentifiers: [TEST_DEVICE_ID],
+  },
+  tagForUnderAgeOfConsent: false,
+}).then(() => {
+  Ump.loadAndShowConsentFormIfRequired().then(({canRequestAds}) => {
+    if (canRequestAds) {
+      // initializeMobileAdsSdk();
+    }
+  })
+});
+
+if (Ump.getConsentInformation().canRequestAds) {
+  // initialize Mobile Ads SDK
+}
+```
