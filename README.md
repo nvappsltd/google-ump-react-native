@@ -2,7 +2,7 @@
   <a href="https://docs.page/nvappsltd/google-ump-react-native">
     <img width="160px" src="./docs/assets/logo_admob_192px.svg">
     <img width="160px" src="./docs/assets/logo_gdpr.png">
-    <img width="160px" src="./docs/assets/react_icon.svg"><br/>
+    <img width="160px" src="./docs/assets/react_icon.svg">
   </a>
   <h2 align="center">Google UMP React Native</h2>
 </p>
