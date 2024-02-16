@@ -1,6 +1,6 @@
 {
   "name": "google-ump-react-native",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Google User Messaging Platform (UMP) for React Native",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -31,11 +31,11 @@
   "license": "MIT",
   "homepage": "https://docs.page/nvappsltd/google-ump-react-native",
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/react": "^18.0.25",
-    "expo-module-scripts": "^3.0.11",
-    "expo-modules-core": "^1.5.11",
-    "prettier": "^3.0.0",
-    "prettier-plugin-organize-imports": "^3.2.3"
+    "expo-module-scripts": "^3.4.1",
+    "expo-modules-core": "^1.11.8",
+    "prettier": "^3.2.5"
   },
   "peerDependencies": {
     "expo": "*",
