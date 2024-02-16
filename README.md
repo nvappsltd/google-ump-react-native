@@ -20,7 +20,7 @@ Integrating Google's User Messaging Platform (UMP) with React Native, this libra
 ✅ Actively maintained, it keeps pace with the latest updates from Google's Official UMP SDKs.
 
 <p align="center">
-    <img width="250px" src="./docs/assets/screenshot-ios-form.png" />
+  <img width="250px" src="./docs/assets/screenshot-ios-form.png" />
 </p>
 
 ## Documentation

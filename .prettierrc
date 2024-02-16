@@ -3,5 +3,8 @@
   "printWidth": 100,
   "trailingComma": "all",
   "singleQuote": true,
-  "plugins": ["prettier-plugin-organize-imports"]
+  "importOrder": ["^(react|react-native)$", "<THIRD_PARTY_MODULES>", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"]
 }
