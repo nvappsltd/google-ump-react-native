@@ -1,6 +1,6 @@
 {
   "name": "google-ump-react-native",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Google User Messaging Platform (UMP) for React Native",
   "main": "build/index.js",
   "types": "build/index.d.ts",
