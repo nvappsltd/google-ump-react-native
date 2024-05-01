@@ -26,5 +26,5 @@ Pod::Spec.new do |s|
   s.source_files = "**/*.{h,m,swift}"
 
   # https://developers.google.com/admob/ios/privacy/download#release_notes
-  s.dependency 'GoogleUserMessagingPlatform', '~> 2.1.0'
+  s.dependency 'GoogleUserMessagingPlatform', '~> 2.4.0'
 end
