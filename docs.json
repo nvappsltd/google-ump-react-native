@@ -2,8 +2,11 @@
   "name": "Google UMP React Native",
   "description": "Google User Messaging Platform (UMP) for React Native.",
   "sidebar": [
-    ["Introduction", "/"],
-    ["Installation", "/installation"],
-    ["Usage", "/usage"]
+    "Google UMP React Native", 
+    [
+      ["Introduction", "/"],
+      ["Installation", "/installation"],
+      ["Usage", "/usage"]
+    ]
   ]
 }
