@@ -1,5 +1,6 @@
 {
   "name": "Google UMP React Native",
+  "logo": "https://github.com/nvappsltd/google-ump-react-native/raw/main/docs/assets/logo_admob_192px.svg",
   "description": "Google User Messaging Platform (UMP) for React Native.",
   "sidebar": [
     [
@@ -8,7 +9,7 @@
         ["Introduction", "/"],
         ["Installation", "/installation"],
         ["Usage", "/usage"]
-      ],
+      ]
     ]
   ]
 }
